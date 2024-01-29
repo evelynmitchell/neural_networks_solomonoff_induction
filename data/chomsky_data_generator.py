@@ -26,7 +26,7 @@ import jax
 from experiments import constants as chomsky_constants
 import numpy as np
 
-from data import data_generator as dg_lib
+import data_generator as dg_lib
 
 
 # Delimiters are allocated in the last two feature dims of the one-hot vectors.
